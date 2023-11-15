@@ -122,22 +122,22 @@ export default ContactForm;
 const FormContainer = styled.main`
   & form {
     @media (max-width: 1200px) {
-      height: 900px;
-      width: 850px;
-      margin-top: 50px;
+      height: 690px;
+      width: 740px;
+      margin-top: 25px;
     }
 
     @media (max-width: 670px) {
       height: 430px;
       width: 300px;
-      margin-top: 25px;
+      margin-top: 2px;
     }
 
     position: absolute;
-    top: 61%;
+    top: 64%;
     left: 52.5%;
     transform: translate(-50%, -50%);
-    height: 720px;
+    height: 620px;
     width: 500px;
     text-align: center;
   }
@@ -145,7 +145,7 @@ const FormContainer = styled.main`
   & input {
     @media (max-width: 1200px) {
       width: 600px;
-      height: 50px;
+      height: 40px;
     }
 
     @media (max-width: 670px) {
@@ -157,14 +157,14 @@ const FormContainer = styled.main`
     margin-bottom: 10px;
     margin-top: 10px;
     width: 400px;
-    height: 35px;
+    height: 30px;
     padding-left: 5px;
   }
 
   & textarea {
     @media (max-width: 1200px) {
       width: 600px;
-      height: 450px;
+      height: 300px;
     }
 
     @media (max-width: 670px) {
@@ -174,17 +174,17 @@ const FormContainer = styled.main`
     border-top: none;
     border-left: none;
     border-right: none;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-top: 10px;
     width: 450px;
-    height: 375px;
+    height: 300px;
   }
 
   & p {
     @media (max-width: 1200px) {
-      font-size: 3em;
+      font-size: 2.3em;
       margin-left: 5px;
-      width: 850px;
+      width: 740px;
     }
 
     @media (max-width: 670px) {
@@ -217,7 +217,7 @@ const FormContainer = styled.main`
 
     width: 115px;
     height: 35px;
-    margin-top: 2px;
+    margin-top: 0px;
     font-size: 1.1em;
     border-radius: 12px;
     background-color: #57d1c9;

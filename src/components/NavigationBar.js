@@ -34,7 +34,7 @@ const NavItem = styled(NavLink)`
   font-family: "Playfair Display", sans-serif;
   color: black;
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1.3em;
 
   &.active {
     color: purple;

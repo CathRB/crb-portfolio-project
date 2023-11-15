@@ -48,17 +48,18 @@ const Main = styled.main`
     margin-top: -80px;
   }
 
-  margin-top: 150px;
+  margin-top: 90px;
   text-align: center;
 
   h1 {
     @media (max-width: 1200px) {
       font-size: 3.4em;
-      margin-top: 140px;
+      margin-top: 80px;
     }
 
     @media (max-width: 670px) {
       font-size: 1.7em;
+      margin-top: 150px;
     }
 
     font-family: "Roboto Slab", sans-serif;
@@ -68,7 +69,7 @@ const Main = styled.main`
   h2 {
     @media (max-width: 1200px) {
       font-size: 3.2em;
-      margin-top: 140px;
+      margin-top: 100px;
     }
 
     @media (max-width: 670px) {

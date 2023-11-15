@@ -62,28 +62,29 @@ const Main = styled.main`
   @media (max-width: 670px) {
     margin-top: 20px;
   }
-  margin-top: 75px;
+  margin-top: 55px;
   text-align: center;
 
   h1 {
     @media (max-width: 1200px) {
       font-size: 3em;
-      margin-bottom: 80px;
+      margin-bottom: 40px;
     }
 
     @media (max-width: 670px) {
-      font-size: 1.9em;
+      font-size: 1.8em;
+      margin-bottom: 25px;
     }
 
     font-family: "Noto Serif", serif;
-    font-size: 3.1em;
+    font-size: 3em;
   }
 
   p {
     @media (max-width: 1200px) {
-      font-size: 2.1em;
+      font-size: 2em;
       margin-left: 60px;
-      width: 85vw;
+      width: 88vw;
     }
 
     @media (max-width: 670px) {
@@ -92,44 +93,44 @@ const Main = styled.main`
       width: 85vw;
     }
 
-    font-size: 1.9em;
+    font-size: 1.8em;
     width: 70vw;
-    margin-left: 350px;
+    margin-left: 240px;
     font-family: "Playpen Sans", cursive;
   }
 
   h2 {
     @media (max-width: 1200px) {
       font-size: 2.8em;
-      margin-top: 80px;
+      margin-top: 60px;
     }
 
     @media (max-width: 670px) {
       font-size: 1.5em;
-      margin-top: 20px;
+      margin-top: 30px;
     }
     margin-top: 60px;
     font-family: "Pixelify Sans", sans-serif;
     font-weight: 500;
-    font-size: 2.6em;
+    font-size: 2.5em;
   }
 `;
 
 const LogoContainer = styled.div`
   @media (max-width: 1200px) {
-    margin-left: 25px;
-    margin-top: 80px;
+    margin-left: 0px;
+    margin-top: 50px;
     height: 8vh;
   }
   @media (max-width: 670px) {
-    margin-left: 20px;
-    margin-top: 10px;
+    margin-left: 10px;
+    margin-top: 35px;
     height: 7vh;
   }
 
   display: flex;
   margin-top: 50px;
-  height: 11vh;
+  height: 9vh;
   margin-left: 350px;
 `;
 

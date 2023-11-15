@@ -167,7 +167,7 @@ const ThumbnailGrid = styled.main`
     grid-template-columns: 1fr;
   }
 
-  margin-top: 80px;
+  margin-top: 50px;
   display: grid;
   justify-items: center;
   grid-template-rows: 1fr 1fr;
@@ -189,25 +189,26 @@ const Thumbnail = styled.div`
   flex-direction: column;
   align-items: center;
   margin-bottom: 30px;
-  height: 40vh;
+  height: 41vh;
 `;
 
 const Container = styled.div`
   @media (max-width: 1200px) {
-    height: 400px;
+    height: 350px;
   }
 
   @media (max-width: 670px) {
     height: 200px;
   }
-  height: 350px;
+  height: 292px;
+  
 `;
 
 const Picture = styled.img`
   @media (max-width: 1200px) {
     opacity: 0.3;
-    height: 410px;
-    width: 530px;
+    height: 350px;
+    width: 500px;
   }
 
   @media (max-width: 670px) {
@@ -216,8 +217,8 @@ const Picture = styled.img`
     width: 280px;
   }
 
-  height: 350px;
-  width: 480px;
+  height: 300px;
+  width: 430px;
   transition: 0.5s ease;
   backface-visibility: hidden;
 
@@ -238,8 +239,8 @@ const Title = styled.p`
   }
 
   font-size: 1.8em;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 10px;
+  margin-bottom: 6px;
 `;
 
 const Detail = styled.p`
@@ -257,10 +258,10 @@ const Detail = styled.p`
     transform: translate(15%, -140%);
   }
   font-size: 1.3em;
-  transform: translate(10%, -200%);
+  transform: translate(6%, -200%);
   margin: 0;
   padding: 10px;
-  width: 400px;
+  width: 360px;
   word-wrap: break-word;
   background-color: white;
   border: solid 2px;
@@ -277,7 +278,7 @@ const Detail = styled.p`
 const MoreToCome = styled.p`
   @media (max-width: 1200px) {
     font-size: 2.8em;
-    padding: 135px;
+    padding: 120px;
   }
 
   @media (max-width: 670px) {
@@ -287,7 +288,7 @@ const MoreToCome = styled.p`
 
   font-size: 2.5em;
   text-align: center;
-  padding: 123px;
+  padding: 97px;
 `;
 
 const IconGit = styled(FontAwesomeIcon).attrs({ icon: faSquareGithub })`
