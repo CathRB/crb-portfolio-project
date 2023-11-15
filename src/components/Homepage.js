@@ -2,7 +2,6 @@ import styled from "styled-components";
 import HompageBackground from "../assets/HompageBackground.jpg";
 import ReactTyped from "react-typed";
 
-
 const Homepage = () => {
   const escape = (titleString) => {
     return titleString.replace(/</g, "&lt;");
@@ -11,8 +10,7 @@ const Homepage = () => {
   return (
     <>
       <Background src={HompageBackground} alt="HompageBackground" />
-    
-           
+
       <Main>
         <h1>
           <ReactTyped
@@ -41,8 +39,6 @@ const Background = styled.img`
   z-index: -1;
 `;
 
-
-
 const Main = styled.main`
   @media (max-width: 1200px) {
     margin-top: 20px;
@@ -59,12 +55,10 @@ const Main = styled.main`
     @media (max-width: 1200px) {
       font-size: 3.4em;
       margin-top: 140px;
-      
     }
 
     @media (max-width: 670px) {
       font-size: 1.7em;
-      
     }
 
     font-family: "Roboto Slab", sans-serif;
@@ -75,13 +69,11 @@ const Main = styled.main`
     @media (max-width: 1200px) {
       font-size: 3.2em;
       margin-top: 140px;
-    
     }
 
     @media (max-width: 670px) {
       font-size: 1.3em;
       margin-top: 70px;
-      
     }
 
     margin-top: 100px;

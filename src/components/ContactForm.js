@@ -12,7 +12,6 @@ const ContactForm = () => {
     lastName: "",
     message: "",
   });
- 
 
   const handleChange = (key, value) => {
     setFormInfo({
@@ -185,12 +184,12 @@ const FormContainer = styled.main`
     @media (max-width: 1200px) {
       font-size: 3em;
       margin-left: 5px;
-      width:850px;
+      width: 850px;
     }
 
     @media (max-width: 670px) {
       font-size: 1.5em;
-       width: 300px;
+      width: 300px;
     }
     width: 300px;
     color: pink;
@@ -204,16 +203,16 @@ const FormContainer = styled.main`
   & button {
     @media (max-width: 1200px) {
       width: 250px;
-    height: 50px;
-    margin-top: 2px;
-    font-size: 1.5em;
+      height: 50px;
+      margin-top: 2px;
+      font-size: 1.5em;
     }
 
     @media (max-width: 670px) {
-    width: 120px;
-    height: 35px;
-    margin-top: 2px;
-    font-size: 1em;
+      width: 120px;
+      height: 35px;
+      margin-top: 2px;
+      font-size: 1em;
     }
 
     width: 115px;

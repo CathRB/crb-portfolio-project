@@ -8,8 +8,6 @@ import ReactLogo from "../assets/ReactLogo.png";
 import NodeJSLogo from "../assets/NodeJSLogo.png";
 import MongoDBLogo from "../assets/MongoDBLogo.png";
 
-
-
 const AboutMe = () => {
   const escape = (codingString) => {
     return codingString.replace(/</g, "&lt;");
@@ -19,15 +17,13 @@ const AboutMe = () => {
     <>
       <Background src={AboutMeBackground} alt="AboutMeBackground" />
 
-       
-
       <Main>
         <h1>About me</h1>
         <p>
-          I'm a web developper. I've always been a curious
-          person who wants to learn new things. I'm dynamic, very involved in
-          everything I do and I'm always eager to take new challenge. Go to the
-          contact section and send me an e-mail, I would be please to meet you!{" "}
+          I'm a web developper. I've always been a curious person who wants to
+          learn new things. I'm dynamic, very involved in everything I do and
+          I'm always eager to take new challenge. Go to the contact section and
+          send me an e-mail, I would be please to meet you!{" "}
         </p>
         <h2>
           <ReactTyped
@@ -61,7 +57,6 @@ const Background = styled.img`
   object-fit: cover;
   z-index: -1;
 `;
-
 
 const Main = styled.main`
   @media (max-width: 670px) {
@@ -139,8 +134,7 @@ const LogoContainer = styled.div`
 `;
 
 const Logo = styled.img`
-
-@media (max-width: 1200px) {
+  @media (max-width: 1200px) {
     margin-left: 20px;
     margin-right: 20px;
   }

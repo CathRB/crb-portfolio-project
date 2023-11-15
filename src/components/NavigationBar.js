@@ -2,19 +2,17 @@ import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
 const NavigationBar = () => {
-
-return (
+  return (
     <NavigationMenu>
-        <NavItem to="/">Homepage</NavItem>
-        <NavItem to="/about">About Me</NavItem>
-        <NavItem to="/projects">Projects</NavItem>
-        <NavItem to="/contact">Contact</NavItem>
-      </NavigationMenu>
-)
-}
+      <NavItem to="/">Homepage</NavItem>
+      <NavItem to="/about">About Me</NavItem>
+      <NavItem to="/projects">Projects</NavItem>
+      <NavItem to="/contact">Contact</NavItem>
+    </NavigationMenu>
+  );
+};
 
-export default NavigationBar
-
+export default NavigationBar;
 
 const NavigationMenu = styled.header`
   display: flex;
@@ -24,7 +22,7 @@ const NavigationMenu = styled.header`
 const NavItem = styled(NavLink)`
   @media (max-width: 1200px) {
     font-size: 1.8em;
-    }
+  }
 
   @media (max-width: 670px) {
     font-size: 1em;
