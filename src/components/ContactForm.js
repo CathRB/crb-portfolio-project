@@ -4,8 +4,10 @@ import styled from "styled-components";
 import BlackPadBackground from "../assets/BlackPadBackground.jpg";
 import { useState } from "react";
 
+const key = process.env.REACT_APP_FORM_ID
+
 const ContactForm = () => {
-  const [state, handleSubmit] = useForm(process.env.REACT_APP_FORM_ID);
+  const [state, handleSubmit] = useForm(key);
 
   const [formInfo, setFormInfo] = useState({
     email: "",
